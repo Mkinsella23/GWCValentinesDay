@@ -27,10 +27,10 @@ export default function ValentineMaker() {
       link.download = "galentines-card.png";
       if (/Mobi|Android/i.test(navigator.userAgent)) {
         window.open(imageUrl, "_blank");
-      } else {
+      } else { 
         link.click();
       }
-    }
+    }   
   };
 
   const shareViaSMS = async () => { //allows user to text/share their card with friends
